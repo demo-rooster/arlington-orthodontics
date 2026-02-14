@@ -1,77 +1,58 @@
 {
   "enable_development_mode": false,
-  "company_name": "Tyska Alexander Orthodontics",
-  "domain": "taortho.com",
-  "email": "info@mandtortho.com",
+  "company_name": "Arlington Heights Orthodontics & Pediatric Dentistry",
+  "domain": "www.ahorthopeds.com",
+  "email": "admin@ahorthopeds.com",
   "phone": {
-    "number": "(716) 759-8323",
-    "href": "tel:+17167598323",
-    "aria": "7 1 6, 7 5 9, 8 3 2 3"
+    "number": "(847) 255-3020",
+    "href": "tel:+18472553020",
+    "aria": "8 4 7, 2 5 5, 3 0 2 0"
   },
   "location": [
     {
-      "title": "Clarence Office",
+      "title": "",
       "address": {
-        "street": "9650 Main Street",
-        "suite": "",
-        "city_state": "Clarence, NY 14031",
+        "street": "1430 N Arlington Heights Rd",
+        "suite": "#200",
+        "city_state": "Arlington Heights, IL 60004",
         "coordinates": {
-          "longitude": "-78.6314355",
-          "latitude": "42.9736638"
+          "longitude": "-87.98106",
+          "latitude": "42.102165"
         }
       },
       "phone": {
-        "number": "(716) 759-8323",
-        "href": "tel:+17167598323"
+        "number": "(847) 255-3020",
+        "href": "tel:+18472553020"
       },
-      "email": "info@mandtortho.com",
+      "email": "admin@ahorthopeds.com",
       "hours": [
         {
           "day": "Monday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "7:30 am - 4:30 pm"
         },
         {
           "day": "Tuesday",
-          "time": "8:30 am \t6:30 pm"
+          "time": "7:30 am - 4:30 pm"
         },
         {
           "day": "Wednesday",
-          "time": "8:00 am \t11:30 am"
+          "time": "7:30 am - 4:30 pm"
         },
         {
           "day": "Thursday",
-          "time": "8:00 am \t6:00 pm"
+          "time": "7:30 am - 4:30 pm"
         },
         {
           "day": "Friday",
-          "time": "8:00 am \t11:30 am"
+          "time": "7:30 am - 4:30 pm"
+        },
+        {
+          "day": "Saturday",
+          "time": "7:30 am - 12:00 pm (By appointment only)"
         }
       ],
       "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "Get Directions"
-      },
-      "special_note": ""
-    },
-    {
-      "title": "Tonawanda Office",
-      "address": {
-        "street": "1077 Delaware Rd",
-        "suite": "",
-        "city_state": "Tonawanda, NY 14223",
-        "coordinates": {
-          "longitude": "-78.8730228",
-          "latitude": "42.9901241"
-        }
-      },
-      "phone": {
-        "number": "(716) 875-0405",
-        "href": "tel:+17168750405"
-      },
-      "email": "info@mandtortho.com",
-      "hours": [],
-      "directions_link": {
-        "href": "https://www.google.com/maps/search/?api=1&query=1077+Delaware+Rd+Tonawanda+NY+14223",
+        "href": "https://www.google.com/maps/search/?api=1&query=1430+N+Arlington+Heights+Rd+%23200+Arlington+Heights+IL+60004",
         "label": "Get Directions"
       },
       "special_note": ""
@@ -94,28 +75,28 @@
     "content_alignment": "right",
     "links": [
       {
-        "icon": "tooth-two-v1",
-        "text": "9650 Main Street, Clarence, NY 14031",
-        "href": "https://www.google.com/maps/search/?api=1&query=9650+Main+St+Clarence+NY+14031",
-        "label": "View 9650 Main Street, Clarence, NY 14031 on google maps",
+        "icon": "tooth-two-v2",
+        "text": "1430 N Arlington Heights Rd #200, Arlington Heights, IL 60004",
+        "href": "https://www.google.com/maps/search/?api=1&query=1430+N+Arlington+Heights+Rd+%23200+Arlington+Heights+IL+60004",
+        "label": "Get directions to Arlington Heights Orthodontics & Pediatric Dentistry",
         "new_window": true
       },
       {
         "icon": "phone",
-        "text": "(716) 759-8323",
-        "href": "tel:+17167598323",
-        "label": "Call 7 1 6. 7 5 9. 8 3 2 3.",
+        "text": "(847) 255-3020",
+        "href": "tel:+18472553020",
+        "label": "Call (847) 255-3020",
         "new_window": false
       }
     ],
     "announcement": {
       "icon": "tooth-two-v2",
-      "label": "",
-      "text": "",
-      "mobile_text": "",
+      "label": "New Patients Welcome",
+      "text": "Now accepting new pediatric and orthodontic patients. Schedule online or call to request an appointment.",
+      "mobile_text": "New patients welcome",
       "modal": {
-        "title": "",
-        "text": ""
+        "title": "Now Accepting New Patients",
+        "text": "<p>Arlington Heights Orthodontics & Pediatric Dentistry has board-certified pediatric dentists and orthodontists providing gentle, family-centered care. We accept new patients and offer convenient online appointment requests and flexible scheduling. Call us at (847) 255-3020 or request an appointment online to get started.</p>"
       }
     }
   },
@@ -129,10 +110,10 @@
           "label": "Schedule Consultation",
           "aria_label": "Schedule a consultation",
           "href": "",
-          "path": "/contact",
-          "hash": "#form",
+          "path": "/request-an-appointment",
+          "hash": "",
           "external": false,
-          "include_icon": true,
+          "include_icon": false,
           "icon": "tooth-two-v2",
           "color": "primary"
         }
@@ -150,20 +131,28 @@
   "footer": {
     "social_media": [
       {
-        "href": "https://www.youtube.com/channel/UC1pgQhnbNQ7Mf0xFm_2KF-g",
-        "icon": "youtube"
+        "href": "https://www.facebook.com/AHOPD60004/",
+        "icon": "facebook"
+      },
+      {
+        "href": "https://www.instagram.com/ahorthopeds/",
+        "icon": "instagram"
+      },
+      {
+        "href": "https://www.yelp.com/biz/arlington-heights-orthodontics-and-pediatric-dentistry-arlington-heights",
+        "icon": "yelp"
       }
     ],
     "add_border": false
   },
   "enable_popup": false,
   "popup": {
-    "title": "",
+    "title": "Welcome to Arlington Heights Orthodontics & Pediatric Dentistry",
     "text": "",
     "image": {
-      "src": "",
+      "src": "https://www.ahorthopeds.com/assets/images/interior-banner-9.jpg",
       "webp": "",
-      "alt": "",
+      "alt": "Arlington Heights Orthodontics & Pediatric Dentistry",
       "aria_hidden": false,
       "bgColor": "",
       "imageBackground": false,
